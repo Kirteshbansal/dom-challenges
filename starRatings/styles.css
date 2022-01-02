@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.fa-star-o:before {
+    content: "\f006";
+    color: #5f6368;
+}
+
+.fa-star:before {
+    content: "\f005";
+    color: #d56e0c;
+}
+
+.fa,
+#display-star {
+    font-size: 40px;
+}
